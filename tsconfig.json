@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "target": "es2017"
+  },
+  "include": ["graphql", "functions"],
+  "exclude": ["node_modules"]
+}

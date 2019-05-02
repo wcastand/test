@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "./functions/**/*.ts",
+      "use": "@now/node"
+    }
+  ],
+  "env": {
+    "DATABASE_URL": "@paybase-database-url",
+    "NB_SPOT": "30"
+  },
+  "routes": [{ "src": "/(.*)", "dest": "/functions/$1.ts" }]
+}
