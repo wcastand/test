@@ -16,6 +16,9 @@ NB_SPOT=30
 install dependencies : `yarn`
 run the server : `yarn dev`
 
+run the migrations: `yarn knex migrate:latest`
+run the seed if you want a default admin user: `yarn knex seed:run`
+
 to generate the types for typescript, use : `yarn generate`
 (add `--watch` when you're coding)
 
